@@ -1,0 +1,25 @@
+{
+  "name": "simple-portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio site",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rigglet/simple-portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Neil Rigg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rigglet/simple-portfolio/issues"
+  },
+  "homepage": "https://github.com/rigglet/simple-portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
